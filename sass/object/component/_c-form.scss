@@ -1,0 +1,73 @@
+@media screen and (max-width: 375px) {
+    .c-form{
+            padding-bottom: 3.9vh;
+            display: flex;
+        }
+        .search{
+            width:clamp(110px, 59vw, 216px);
+            height: 4.6vh;
+            position: absolute;
+            left: 8.2%;
+            border: 1px solid #707070;
+            border-radius: 10px;
+            background: url(../images/mushimegane.png) no-repeat;
+            background-position:  8px center;
+            background-size: 16px 16px;
+            background-color: #FFFFFF;
+            padding-left: 32px;
+            line-height: 4.6vh;
+            vertical-align: middle;
+        }
+        input[type=text]{
+            color:#707070;
+            font-weight: 700;
+        }
+}
+
+@media screen and (min-width: 376px)and (max-width: 834px) {
+    .c-form{
+            padding:0 1.9vw;
+        }
+        .search{
+            width: 54.6vw;
+            height: 4.6vh;
+            border: 1px solid #707070;
+            border-radius: 10px;
+            background: url(../images/mushimegane.png) no-repeat;
+            background-position: 8px center;
+            background-size: 16px 16px;
+            background-color: #FFFFFF;
+            padding-left: 32px;
+            line-height: 4.6vh;
+            vertical-align: middle;
+        }
+        input[type=text]{
+            color:#707070;
+            font-weight: 700;
+        }
+}
+
+
+
+@media screen and (min-width: 835px) {
+.c-form{
+        padding:0 1.9vw;
+    }
+    .search{
+        width: 25.5vw;
+        height: 4.6vh;
+        border: 1px solid #707070;
+        border-radius: 10px;
+        background: url(../images/mushimegane.png) no-repeat;
+        background-position: 8px center;
+        background-size: 16px 16px;
+        background-color: #FFFFFF;
+        padding-left: 32px;
+        line-height: 4.6vh;
+        vertical-align: middle;
+    }
+    input[type=text]{
+        color:#707070;
+        font-weight: 700;
+    }
+}

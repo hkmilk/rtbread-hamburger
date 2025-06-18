@@ -1,0 +1,33 @@
+/*
+Theme Name: rtbread
+Text Domain: rtbread
+Requires at least: 4.7
+Requires PHP: 8.2
+Description: This theme is a  theme for rtbread.
+Version: 1.0
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu
+Author: kato
+Author URI: https://wp.kato-net.com
+Theme URI: http://rtbread.local/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Copyright notice: GNU General Public License
+Tested up to: 6.8
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor,
+.alignright,
+.alignleft,
+.aligncenter,
+.screen-reader-text {
+      visibility: hidden;
+}
