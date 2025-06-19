@@ -706,7 +706,7 @@ a {
     height: 100%;
   }
   .l-rectangle43 img {
-    width: clamp(65%, 95vw, 100%);
+    width: clamp(60%, 48vw, 100%);
     height: 100%;
     z-index: 30;
   }
